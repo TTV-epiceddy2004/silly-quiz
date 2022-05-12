@@ -1,7 +1,26 @@
 body{
-    background-color:gainsboro;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   background-color: darkorange;
+    font-family: fantasy;
+}
+.blink-text{
+    color: #000;
+    font-weight: bold;
+    font-size: 2rem;
+    animation: blinkingText 2s infinite;
+}
+@keyframes blinkingText{
+    0%		{ color: #00ff0d;}
+    25%		{ color: #0026ff;}
+    50%		{ color: rgb(255, 0, 0);}
+    75%		{ color: #ff00aa;}
+    100%	{ color: #04a1d5;}
 }
 h1, h2{
-    color:darkslategray;
+    color:yellow;
+}
+h2:hover{
+    color:lawngreen
+}
+h1:hover{
+    color: purple; 
 }

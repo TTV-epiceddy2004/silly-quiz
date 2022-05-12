@@ -21,7 +21,18 @@ function hash(str) {
     return new Uint32Array([hash])[0].toString(36);
 }
 
-var questionSet = [["What is the capital of Wales?","10ow88p"],["What number are you thinking of between 0 and 100","19g"]];
+var questionSet = [
+  ["What is the capital of Wales?","10ow88p"],
+["What number are you thinking of between 0 and 100","19g"],
+["What is the capial of England?","11qgta0"],
+["Whats the biggest bone in the body called","1lxtwr"],
+["How many metres are in a mile?","wfla"],
+["Who plays football on Edgar Street?","7jsw1e"],
+["Who lives in 742 Evergreen Terrace?","1pkp3k9"],
+["What year did England win the World Cup?","whyg"],
+["Who created Minecraft?","18xaag"],
+["What is the world's largest land mammal?","z7u41"],
+];
 
 function checkAnswer(answerNum){
     var response = "You were... ";
