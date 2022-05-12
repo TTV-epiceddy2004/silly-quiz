@@ -6,7 +6,7 @@ body{
     color: #000;
     font-weight: bold;
     font-size: 2rem;
-    animation: blinkingText 2s infinite;
+    animation: blinkingText 0.15s infinite;
 }
 @keyframes blinkingText{
     0%		{ color: #00ff0d;}
